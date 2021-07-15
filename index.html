@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -62,7 +63,7 @@
 
         <main class="main">
             <section class="home section" id="home">
-                <div class="home-container container grid">
+                <div class="home-container container grid" data-aos="zoom-in">
                     <div class="home-content grid">
                         <div class="home-social">
                             <a href="https://www.linkedin.com/in/julianto/" target="_blank" rel="noopener noreferrer" class="home-social-icon">
@@ -118,7 +119,7 @@
             <section class="about section" id="about">
                 <h2 class="section-title">About Me</h2>
                 <span class="section-subtitle">My introduction</span>
-                <div class="about-container container grid">
+                <div class="about-container container grid" data-aos="fade-right">
                     <img src="assets/img/julianto.jpg" alt="" class="about-img">
                     <div class="about-data">
                         <p class="about-description">Web developer, with extensive knowledge, working in web technologies, delivering quality work.</p>
@@ -148,7 +149,7 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <span class="section-subtitle">My technical level</span>
-                <div class="skills-container container grid">
+                <div class="skills-container container grid" data-aos="fade-up">
                     <div>
                         <div class="skills-content skills-open">
                             <div class="skills-header">
@@ -280,7 +281,7 @@
             <section class="qualification section">
                 <h2 class="section-title">Qualification</h2>
                 <span class="section-subtitle">My personal journey</span>
-                <div class="qualification-container container">
+                <div class="qualification-container container" data-aos="zoom-in-up">
                     <div class="qualification-tabs">
                         <div class="qualification-button button-flex active" data-target="#education">
                             <i class="uil uil-graduation-cap qualification-icon"></i>
@@ -376,7 +377,7 @@
                 <h2 class="section-title">Services</h2>
                 <span class="section-subtitle">What i offer</span>
                 <div class="services-container container grid">
-                    <div class="services-content">
+                    <div class="services-content" data-aos="fade-up">
                         <div>
                             <i class="uil uil-web-grid services-icon"></i>
                             <h3 class="services-title">Front-End <br> Developer</h3>
@@ -408,7 +409,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services-content">
+                    <div class="services-content" data-aos="fade-up" data-aos-delay="100">
                         <div>
                             <i class="uil uil-mobile-android-alt services-icon"></i>
                             <h3 class="services-title">Progressive <br> Web Apps</h3>
@@ -440,7 +441,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services-content">
+                    <div class="services-content" data-aos="fade-up" data-aos-delay="200">
                         <div>
                             <i class="uil uil-analytics services-icon"></i>
                             <h3 class="services-title">Strategic <br> Roadmaps</h3>
@@ -478,7 +479,7 @@
             <section class="portfolio section" id="portfolio">
                 <h2 class="section-title">Portfolio</h2>
                 <span class="section-subtitle">Most recent work</span>
-                <div class="portfolio-container container swiper-container">
+                <div class="portfolio-container container swiper-container" data-aos="zoom-in">
                     <div class="swiper-wrapper">
                         <div class="portfolio-content grid swiper-slide">
                             <img src="assets/img/foodrest.png" alt="" class="portfolio-img">
@@ -530,7 +531,7 @@
                 <h2 class="section-title">Contact Me</h2>
                 <span class="section-subtitle">Get in touch</span>
                 <div class="contact-container container grid">
-                    <div>
+                    <div data-aos="fade-right">
                         <div class="contact-information">
                             <i class="uil uil-phone contact-icon"></i>
                             <div>
@@ -553,7 +554,7 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact-form grid">
+                    <form action="" class="contact-form grid" data-aos="fade-right" data-aos-delay="100">
                         <div class="contact-inputs grid">
                             <div class="contact-content">
                                 <label for="" class="contact-label">Name</label>
@@ -624,6 +625,11 @@
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup-icon"></i>
         </a>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         
         <script src="assets/js/swiper-bundle.min.js"></script>
 
