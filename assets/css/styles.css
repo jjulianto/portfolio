@@ -457,12 +457,12 @@ img {
     width: 70%;
 }
 
-.skills-tailwind, .skills-node, .skills-firebase {
-    width: 60%;
+.skills-react {
+    width: 65%;
 }
 
-.skills-react {
-    width: 50%;
+.skills-tailwind, .skills-node, .skills-firebase {
+    width: 60%;
 }
 
 .skills-close .skills-list {
@@ -1015,6 +1015,10 @@ img {
     .footer-bg {
         padding: 3rem 0 3.5rem;
     }
+    .footer-section {
+        position: relative;
+        bottom: 0.5rem;
+    }
     .footer-links {
         flex-direction: row;
         column-gap: 2rem;
@@ -1036,6 +1040,9 @@ img {
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
+    }
+    .footer-section {
+        bottom: 1rem;
     }
 }
 
