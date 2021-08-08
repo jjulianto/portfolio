@@ -453,15 +453,15 @@ img {
     width: 75%;
 }
 
-.skills-js, .skills-mysql, .skills-codeigniter {
+.skills-js, .skills-mysql, .skills-codeigniter, .skills-tailwind {
     width: 70%;
 }
 
-.skills-react {
+.skills-react, .skills-vue {
     width: 65%;
 }
 
-.skills-tailwind, .skills-node, .skills-firebase {
+.skills-node, .skills-firebase, .skills-mongo {
     width: 60%;
 }
 
